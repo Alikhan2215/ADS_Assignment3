@@ -8,5 +8,8 @@ public class MyArrayListStack {
     public MyArrayListStack() {
         myArrayList = new ArrayList();
     }
-
+    //5. Implement the push method that adds an element to the top of the stack
+    public void push(Object element) {
+        myArrayList.add(element); // Add the element to the end of the ArrayList
+    }
 }
