@@ -1,5 +1,5 @@
 import java.util.EmptyStackException;
-import assignment2ads.MyArrayList;
+import java.util.ArrayList;
 public class MyArrayListStack {
 
 }
