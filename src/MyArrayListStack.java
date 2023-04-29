@@ -32,9 +32,15 @@ public class MyArrayListStack {
         return myArrayList.get(myArrayList.size() - 1);
     }
 
-    //8. Implement the isEmpty method that returns true if the queue is empty or false if it is not
+    //8. Implement the isEmpty method that returns true if the stack is empty or false if it is not
     public boolean isEmpty() {
         // Return the result
         return myArrayList.isEmpty();
+    }
+
+    //9. Implement the size method that returns the number of elements in the stack
+    public int stackSize() {
+        // Return the result of the size method of the ArrayList
+        return myArrayList.size();
     }
 }
