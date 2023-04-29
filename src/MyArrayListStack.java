@@ -22,4 +22,13 @@ public class MyArrayListStack {
         // Remove and return the last element of the ArrayList
         return myArrayList.remove(myArrayList.size() - 1);
     }
+
+    //7. Implement the peek method that returns the front element of the queue without removing it
+    public Object peek(){
+        if (myArrayList.isEmpty()) {
+            throw new EmptyStackException(); // Throw an exception if the stack is empty
+        }
+        // Return the last element of the ArrayList
+        return myArrayList.get(myArrayList.size() - 1);
+    }
 }
