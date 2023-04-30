@@ -23,7 +23,7 @@ public class MyArrayListStack {
         return myArrayList.remove(myArrayList.size() - 1);
     }
 
-    //7. Implement the peek method that returns the front element of the queue without removing it
+    //7. Implement the peek method that returns the front element of the stack without removing it
     public Object peek(){
         if (myArrayList.isEmpty()) {
             throw new EmptyStackException(); // Throw an exception if the stack is empty
