@@ -31,4 +31,10 @@ public class MyLinkedListQueue {
         // Return the first element of the queue
         return myLinkedList.getFirst();
     }
+
+    //8. Implement the isEmpty method that returns true if the queue is empty or false if it is not
+    public boolean isEmpty() {
+        // Return the result
+        return myLinkedList.isEmpty();
+    }
 }
