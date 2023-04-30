@@ -1,4 +1,3 @@
-import java.util.EmptyStackException;
 import java.util.NoSuchElementException;
 import java.util.LinkedList;
 public class MyLinkedListQueue {
@@ -18,9 +17,18 @@ public class MyLinkedListQueue {
     //6. Implement the dequeue method that removes and returns the front element of the queue
     public Object dequeue() {
         if (myLinkedList.isEmpty()) {
-            throw new EmptyStackException(); // Throw an exception if the stack is empty
+            throw new NoSuchElementException(); // Throw an exception if there is no such element
         }
         // Remove and return the first element of the queue
         return myLinkedList.removeFirst();
+    }
+
+    //7. Implement the peek method that returns the front element of the queue without removing it
+    public Object peek() {
+        if (myLinkedList.isEmpty()) {
+            throw new NoSuchElementException(); // Throw an exception if there is no such element
+        }
+        // Return the first element of the queue
+        return myLinkedList.getFirst();
     }
 }
