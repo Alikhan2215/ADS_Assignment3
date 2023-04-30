@@ -30,5 +30,11 @@ public class Main {
 
         // Peek at the first element of the queue
         System.out.println("First element of the queue: " + queue.peek());
+
+        // Dequeue elements
+        queue.dequeue();
+        queue.dequeue();
+
+        System.out.println("Queue size after dequeuing 2 elements: " + queue.queueSize());
     }
 }
