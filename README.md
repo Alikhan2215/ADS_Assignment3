@@ -4,3 +4,4 @@
 
 - **public void push(Object element)**: *adds an element to the top of the stack*
 - **public Object pop()**: *removes and returns the top element of the stack*
+- **public Object peek()**: *returns the front element of the stack without removing it*
