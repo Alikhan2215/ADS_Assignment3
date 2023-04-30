@@ -9,5 +9,8 @@ public class MyLinkedListQueue {
         myLinkedList = new LinkedList();
     }
 
-    //5.
+    //5. Implement the enqueue method that adds an element to the back of the queue
+    public void enqueue(Object element) {
+        myLinkedList.addLast(element);
+    }
 }
