@@ -37,4 +37,10 @@ public class MyLinkedListQueue {
         // Return the result
         return myLinkedList.isEmpty();
     }
+
+    //9. Implement the size method that returns the number of elements in the queue
+    public int queueSize() {
+        // Return the result
+        return myLinkedList.size();
+    }
 }
