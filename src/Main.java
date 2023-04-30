@@ -24,5 +24,8 @@ public class Main {
         queue.enqueue(3);
 
         System.out.println("Queue size: " + queue.queueSize());
+
+        // Check if the queue is empty
+        System.out.println("Is the queue empty? " + queue.isEmpty());
     }
 }
