@@ -13,5 +13,16 @@ public class Main {
 
         System.out.println("Popped element: " + stack.pop());
         System.out.println("Stack size after popping one element: " + stack.stackSize());
+
+        System.out.println("QUEUE CHECK");
+        MyLinkedListQueue queue = new MyLinkedListQueue();
+
+        System.out.println("Queue size: " + queue.queueSize());
+        // Enqueue elements
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+
+        System.out.println("Queue size: " + queue.queueSize());
     }
 }
