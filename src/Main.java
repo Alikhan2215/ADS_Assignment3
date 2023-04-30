@@ -27,5 +27,8 @@ public class Main {
 
         // Check if the queue is empty
         System.out.println("Is the queue empty? " + queue.isEmpty());
+
+        // Peek at the first element of the queue
+        System.out.println("First element of the queue: " + queue.peek());
     }
 }
